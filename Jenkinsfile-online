@@ -17,6 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'swaytec'
         GITHUB_ACCOUNT = 'swaytec'
         APP_NAME = 'devops-maven-sample2023'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {
